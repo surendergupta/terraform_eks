@@ -1,0 +1,11 @@
+iam_cluster_role_name       = "eks-cluster-role"
+iam_node_group_role_name    = "eks-node-group-role"
+vpc_tag_name                = "eks-vpc"
+vpc_cidr_block              = "10.0.0.0/16"
+igw_tag_name                = "eks-igw"
+subnets_count               = 3
+subnet_tag_name             = "eks-public-subnet"
+route_tag_name              = "eks-public-route-table"
+eks_cluster_name            = "test-cluster"
+eks_cluster_node_group_name = "test-node-group"
+node_instance_type          = ["t3.medium"]
